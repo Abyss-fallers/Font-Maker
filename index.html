@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Font Maker</title>
+    <link rel="stylesheet" href="./src/index.css" />
+    <link rel="stylesheet" href="./src/tabs.css" />
+    <script
+      src="https://kit.fontawesome.com/c00aa99b72.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <h1>Добро пожаловать в Font Maker!</h1>
+    </header>
+
+    <main>
+      <nav class="navigation">
+        <ul class="nav-buttons">
+          <li>
+            <a href="#" data-tab="welcome"
+              ><i class="fas fa-home"></i> Главная</a
+            >
+          </li>
+          <li>
+            <a href="#" data-tab="fonts"
+              ><i class="fas fa-folder"></i> Ваши шрифты</a
+            >
+          </li>
+          <li>
+            <a href="#" data-tab="examples"
+              ><i class="fas fa-image"></i> Галерея</a
+            >
+          </li>
+          <li>
+            <a href="#" data-tab="tips"
+              ><i class="fas fa-lightbulb"></i> Советы</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div id="welcome" class="tab-content active">
+        <section>
+          <h1>Создавайте уникальные шрифты из ваших фото</h1>
+          <p>
+            Простой способ сделать шрифт, который подчеркнет вашу
+            индивидуальность.
+          </p>
+          <a href="#" class="create-button">Создать новый шрифт</a>
+        </section>
+      </div>
+
+      <div id="fonts" class="tab-content">
+        <section>
+          <h2>Ваши последние шрифты</h2>
+          <ul class="previews">
+            <li class="preview-item">Шрифт 1</li>
+            <li class="preview-item">Шрифт 2</li>
+            <li class="preview-item">Шрифт 3</li>
+          </ul>
+        </section>
+      </div>
+
+      <div id="examples" class="tab-content">
+        <section>
+          <h2>Примеры работ</h2>
+          <div class="examples">
+            <div class="example-item">Пример 1</div>
+            <div class="example-item">Пример 2</div>
+            <div class="example-item">Пример 3</div>
+          </div>
+        </section>
+      </div>
+
+      <div id="tips" class="tab-content">
+        <section>
+          <h2>Советы и помощь</h2>
+          <p>Как выбрать фото, лучшие практики для создания шрифта.</p>
+          <a href="#" class="create-button">Советы и помощь</a>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <p>
+        Контакты:
+        <a href="mailto:denioberlev@gmail.com">denioberlev@gmail.com</a>
+      </p>
+      <p>
+        <a href="#">Политика конфиденциальности</a> |
+        <a href="#">Условия использования</a>
+      </p>
+    </footer>
+    <script src="./src/tabs.js"></script>
+  </body>
+</html>

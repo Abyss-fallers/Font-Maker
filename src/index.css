@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #cfc8b8;
+  color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.welcome {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.welcome h1 {
+  margin-bottom: 10px;
+}
+
+.create-button {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #cfc8b8;
+  color: #333;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.section h2 {
+  margin-bottom: 15px;
+}
+
+.previews,
+.examples {
+  display: flex;
+  gap: 10px;
+}
+
+.preview-item,
+.example-item {
+  flex: 1;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgb(0 0 0 / 10%);
+}
+
+footer {
+  background-color: #cfc8b8;
+  color: #333;
+  text-align: center;
+  padding: 10px 20px;
+  margin-top: 30px;
+  padding-bottom: 60px; /* Увеличьте padding-bottom, чтобы учесть высоту nav */
+}
+
+footer a {
+  color: #333;
+  text-decoration: none;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: space-around;
+  background-color: #cfc8b8;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -2px 5px rgb(0 0 0 / 10%);
+}
+
+.nav-buttons a {
+  color: #333;
+  text-decoration: none;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-buttons i {
+  font-size: 24px;
+}
